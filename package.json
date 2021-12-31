@@ -1,9 +1,11 @@
 {
-  "name": "Manguinhos",
+  "name": "TemPlate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build":"tsc",
+    "dev":"tsnd --transpile-only --respawn --ignore-watch node_modules src/index.ts",
     "test": "jest"
   },
   "keywords": [],
